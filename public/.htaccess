@@ -1,0 +1,4 @@
+d:\office\mahindra_solar1\public\favicon.icoOptions -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
